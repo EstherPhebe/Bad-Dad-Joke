@@ -18,20 +18,3 @@ const getJoke = async () => {
         console.log(error)
     }
 }
-
-
-
-// fetch("https://dad-jokes.p.rapidapi.com/random/joke", {
-// 	"method": "GET",
-// 	"headers": {
-// 		"x-rapidapi-key": "SIGN-UP-FOR-KEY",
-// 		"x-rapidapi-host": "dad-jokes.p.rapidapi.com"
-// 	}
-// })
-// .then(response => {
-// 	console.log(response);
-// })
-// .catch(err => {
-// 	console.error(err);
-// });
-// }
