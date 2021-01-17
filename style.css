@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.85em;
+    background-color: rgb(241, 205, 215, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+}
+
+.content{
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 251);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 1.5rem 0.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: rgb(110, 109, 122);
+    text-align: center;
+    padding: 0 0.2rem 0.3rem;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.3);
+}
+
+.box {
+    width: 40vw;
+    height: 15vh;
+    margin: 0 auto;
+    background-color: rgba(232, 240, 254, 0.698);
+    padding: 0.4rem 0.7rem;
+}
+
+#jokes {
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+#button {
+    box-shadow: 0 8px 15px -6px rgba(116, 80, 107, 0.555);
+    display: block;
+    margin: 2rem auto 1.2rem;
+    text-align: center;
+    min-width: 7vw;
+    height: 5vh;
+    max-width: 8vw;
+    min-height: 5vh;
+    font-weight: 400;
+    background-color:rgba(241, 44, 192, 0.8);
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 15px;
+}
+
+#button:focus {
+    border: none;
+    outline: none;
+}
+#button:hover {
+    background-color:rgba(243, 97, 207, 0.644);
+}
+
+#button:active {
+    box-shadow: none;
+    border: none;
+    background-color: rgba(241, 44, 192, 0.4);
+    outline: none;
+}
+
+#language {
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 2rem auto;
+    color:#4169e1;
+    min-width: 7vw;
+    max-width: 10vw;
+    height: 5vh;
+    border: none;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.footer > p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0;
+}
+
+a {
+    color: rgba(98, 93, 93, 0.774);
+    
+}
